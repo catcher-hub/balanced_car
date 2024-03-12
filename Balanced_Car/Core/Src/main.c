@@ -20,9 +20,7 @@
 #include "main.h"
 #include "adc.h"
 #include "gpio.h"
-#define test1
-#define test2
-#define test3
+
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
