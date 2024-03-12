@@ -23,6 +23,8 @@
 "balanced_car\system_stm32f1xx.o"
 "balanced_car\delay.o"
 "balanced_car\iic.o"
+"balanced_car\oled.o"
+"balanced_car\show.o"
 --strict --scatter "Balanced_Car\Balanced_Car.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

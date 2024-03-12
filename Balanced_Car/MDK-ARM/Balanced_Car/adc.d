@@ -32,3 +32,7 @@ balanced_car\adc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 balanced_car\adc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 balanced_car\adc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 balanced_car\adc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+balanced_car\adc.o: ../BSPcode/Inc/delay.h
+balanced_car\adc.o: ../Core/Inc/main.h
+balanced_car\adc.o: ../BSPcode/Inc/oled.h
+balanced_car\adc.o: ../BSPcode/Inc/iic.h

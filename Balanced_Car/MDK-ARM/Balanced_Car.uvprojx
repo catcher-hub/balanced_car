@@ -48,7 +48,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>Balanced_Car\</OutputDirectory>
+          <OutputDirectory>..\</OutputDirectory>
           <OutputName>Balanced_Car</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\BSPcode\Inc</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../BSPcode/Inc;../WHEELTEC/Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -520,6 +520,21 @@
               <FileName>iic.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSPcode\iic.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSPcode\oled.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>WHEELTEC</GroupName>
+          <Files>
+            <File>
+              <FileName>show.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\WHEELTEC\show.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -43,6 +43,14 @@ typedef uint32_t u32;
 #include <stdlib.h>
 #include <math.h>
 
+
+
+//板级支持包相关
+
+#include "delay.h"
+#include "oled.h"
+#include "iic.h"
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -68,14 +76,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define OLED_DC_Pin GPIO_PIN_15
+#define OLED_DC_GPIO_Port GPIOA
 #define OLED_RES_Pin GPIO_PIN_3
 #define OLED_RES_GPIO_Port GPIOB
 #define OLED_SDA_Pin GPIO_PIN_4
 #define OLED_SDA_GPIO_Port GPIOB
-#define OLED_SDAB5_Pin GPIO_PIN_5
-#define OLED_SDAB5_GPIO_Port GPIOB
-#define OLED_SDAB6_Pin GPIO_PIN_6
-#define OLED_SDAB6_GPIO_Port GPIOB
+#define OLED_SCL_Pin GPIO_PIN_5
+#define OLED_SCL_GPIO_Port GPIOB
 #define IIC_SCL_Pin GPIO_PIN_8
 #define IIC_SCL_GPIO_Port GPIOB
 #define IIC_SDA_Pin GPIO_PIN_9

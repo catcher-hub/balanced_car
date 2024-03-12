@@ -1,5 +1,5 @@
 balanced_car\delay.o: ..\BSPcode\delay.c
-balanced_car\delay.o: ..\BSPcode\Inc\delay.h
+balanced_car\delay.o: ../BSPcode/Inc/delay.h
 balanced_car\delay.o: ../Core/Inc/main.h
 balanced_car\delay.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 balanced_car\delay.o: ../Core/Inc/stm32f1xx_hal_conf.h
@@ -32,3 +32,7 @@ balanced_car\delay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 balanced_car\delay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 balanced_car\delay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 balanced_car\delay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+balanced_car\delay.o: ../BSPcode/Inc/delay.h
+balanced_car\delay.o: ../BSPcode/Inc/oled.h
+balanced_car\delay.o: ../Core/Inc/main.h
+balanced_car\delay.o: ../BSPcode/Inc/iic.h

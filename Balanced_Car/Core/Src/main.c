@@ -87,13 +87,14 @@ int main(void)
   MX_GPIO_Init();
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
-
+	OLED_Init();  						//OLED≥ı ºªØ
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+		oled_show();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
