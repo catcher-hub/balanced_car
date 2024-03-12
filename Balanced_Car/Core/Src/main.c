@@ -43,7 +43,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+float Angle_Balance,Gyro_Balance,Gyro_Turn;     						 //平衡倾角 平衡陀螺仪 转向陀螺仪
+int Temperature;
+float Acceleration_Z;                       //Z轴加速度计
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -87,7 +89,10 @@ int main(void)
   MX_GPIO_Init();
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
-
+	HAL_NVIC_DisableIRQ(EXTI15_10_IRQn); //先关闭配置的外部中断，防止初始化过程中进入中断
+  delay_init(); 						//释放SysTick，使用DWT作为HAL库时钟
+  MPU6050_initialize();           		//MPU6050初始化
+  DMP_Init();                     		//初始化DMP
   /* USER CODE END 2 */
 
   /* Infinite loop */
