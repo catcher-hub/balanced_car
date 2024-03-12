@@ -48,7 +48,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>Balanced_Car\</OutputDirectory>
+          <OutputDirectory>..\Release\</OutputDirectory>
           <OutputName>Balanced_Car</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\BSPcode\Inc</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../BSPcode/Inc;../WHEELTEC/Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -522,6 +522,9 @@
               <FilePath>..\BSPcode\iic.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>WHEELTEC</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
