@@ -27,9 +27,14 @@
 ..\release\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 ..\release\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 ..\release\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+..\release\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+..\release\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+..\release\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 ..\release\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\release\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\release\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\release\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\release\main.o: ../Core/Inc/adc.h
+..\release\main.o: ../Core/Inc/tim.h
+..\release\main.o: ../Core/Inc/usart.h
 ..\release\main.o: ../Core/Inc/gpio.h
