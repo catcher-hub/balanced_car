@@ -26,6 +26,9 @@
 "..\release\system_stm32f1xx.o"
 "..\release\delay.o"
 "..\release\iic.o"
+"..\release\inv_mpu.o"
+"..\release\inv_mpu_dmp_motion_driver.o"
+"..\release\mpu6050.o"
 --strict --scatter "..\Release\Balanced_Car.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -34,3 +34,12 @@
 ..\release\stm32f1xx_hal_msp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\release\stm32f1xx_hal_msp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\release\stm32f1xx_hal_msp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\release\stm32f1xx_hal_msp.o: ../WHEELTEC/Inc/inv_mpu.h
+..\release\stm32f1xx_hal_msp.o: ../WHEELTEC/Inc/inv_mpu_dmp_motion_driver.h
+..\release\stm32f1xx_hal_msp.o: ../WHEELTEC/Inc/dmpKey.h
+..\release\stm32f1xx_hal_msp.o: ../WHEELTEC/Inc/dmpmap.h
+..\release\stm32f1xx_hal_msp.o: ../WHEELTEC/Inc/MPU6050.h
+..\release\stm32f1xx_hal_msp.o: ../Core/Inc/main.h
+..\release\stm32f1xx_hal_msp.o: ../WHEELTEC/Inc/filter.h
+..\release\stm32f1xx_hal_msp.o: ../BSPcode/Inc/delay.h
+..\release\stm32f1xx_hal_msp.o: ../BSPcode/Inc/iic.h

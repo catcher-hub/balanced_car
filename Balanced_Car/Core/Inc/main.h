@@ -43,6 +43,29 @@ typedef uint32_t u32;
 #include <stdlib.h>
 #include <math.h>
 
+
+//MPU6050DMP库相关
+#include "inv_mpu.h"
+#include "inv_mpu_dmp_motion_driver.h"
+#include "dmpKey.h"
+#include "dmpmap.h"
+#include "MPU6050.h"
+#include "filter.h"
+
+
+//板级支持包相关
+
+#include "delay.h"
+#include "iic.h"
+
+
+//外部声明方便使用
+extern u8 Way_Angle;                                       				 //获取角度的算法，1：四元数  2：卡尔曼  3：互补滤波
+extern float Angle_Balance,Gyro_Balance,Gyro_Turn;     						 //平衡倾角 平衡陀螺仪 转向陀螺仪
+extern int Temperature;
+extern float Acceleration_Z;                       //Z轴加速度计
+
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

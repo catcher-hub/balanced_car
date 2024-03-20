@@ -35,3 +35,12 @@
 ..\release\iic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\release\iic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\release\iic.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\release\iic.o: ../WHEELTEC/Inc/inv_mpu.h
+..\release\iic.o: ../WHEELTEC/Inc/inv_mpu_dmp_motion_driver.h
+..\release\iic.o: ../WHEELTEC/Inc/dmpKey.h
+..\release\iic.o: ../WHEELTEC/Inc/dmpmap.h
+..\release\iic.o: ../WHEELTEC/Inc/MPU6050.h
+..\release\iic.o: ../Core/Inc/main.h
+..\release\iic.o: ../WHEELTEC/Inc/filter.h
+..\release\iic.o: ../BSPcode/Inc/delay.h
+..\release\iic.o: ../BSPcode/Inc/iic.h
